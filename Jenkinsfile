@@ -1,9 +1,9 @@
 pipeline {
-    agent { label 'Windows' }
+    agent any
     stages {
         stage ('Checkout') {
           steps {
-            git 'https://github.com/effectivejenkins/spring-petclinic.git'
+            git 'https://github.com/Aafthabnt/Junit4.git'
           }
         }
         stage('Build') {
