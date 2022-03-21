@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'linux' }
+    agent { label 'Windows' }
     stages {
         stage ('Checkout') {
           steps {
